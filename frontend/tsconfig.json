@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"],
+      "@/styles/*": ["src/styles/*"]
+    },
+    "moduleResolution": "node",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "ignoreDeprecations": "5.0",
+    "types": ["vite-plugin-svgr/client", "vite/client"]
+  },
+  "include": ["src", "src/types"],
+  "exclude": [
+    "hooks",
+    "src/components/ai",
+    "src/components/family-tree",
+    "src/components/lib",
+    "src/documents"
+  ]
+}

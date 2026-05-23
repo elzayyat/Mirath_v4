@@ -1,0 +1,12 @@
+declare module 'lucide-react/dist/esm/icons/message-circle';
+declare module 'lucide-react/dist/esm/icons/send';
+declare module 'lucide-react/dist/esm/icons/bot';
+declare module 'lucide-react/dist/esm/icons/user';
+declare module 'lucide-react/dist/esm/icons/sparkles';
+declare module 'lucide-react/dist/esm/icons/x';
+declare module 'lucide-react/dist/esm/icons/package';
+declare module 'lucide-react/dist/esm/icons/plus';
+declare module 'lucide-react/dist/esm/icons/trash-2';
+declare module 'lucide-react/dist/esm/icons/landmark';
+declare module 'lucide-react/dist/esm/icons/alert-circle';
+declare module 'lucide-react/dist/esm/icons/scroll-text';

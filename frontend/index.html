@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Mirath - Islamic inheritance calculation and case management system" />
+    <title>Mirath</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Migration: clear old seed keys so admin account is re-seeded -->
+    <script>
+      (function() {
+        var oldKeys = ['mirath_seeded', 'mirath_seeded_v1', 'mirath_seeded_v2'];
+        oldKeys.forEach(function(k) { localStorage.removeItem(k); });
+        // If seeded_v3 not present yet, clear old users so admin is seeded fresh
+        if (!localStorage.getItem('mirath_seeded_v3')) {
+          // preserve current logged-in user but reset user list to get admin
+          localStorage.removeItem('mirath_mock_users');
+          localStorage.removeItem('mirath_mock_logs');
+        }
+      })();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

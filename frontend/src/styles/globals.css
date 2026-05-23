@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@300;400;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 40 22% 96%; --foreground: 222 64% 16%; --card: 0 0% 100%; --card-foreground: 222 64% 16%; --popover: 0 0% 100%; --popover-foreground: 222 64% 16%; --primary: 222 64% 16%; --primary-foreground: 40 22% 96%; --secondary: 42 37% 92%; --secondary-foreground: 222 64% 16%; --muted: 42 27% 90%; --muted-foreground: 222 22% 42%; --accent: 44 52% 54%; --accent-foreground: 222 64% 16%; --destructive: 0 72% 51%; --destructive-foreground: 0 0% 100%; --border: 42 24% 84%; --input: 42 24% 84%; --ring: 44 52% 54%; --radius: 0.9rem;
+  }
+  .dark { --background: 222 64% 9%; --foreground: 40 22% 96%; --card: 222 52% 12%; --card-foreground: 40 22% 96%; --popover: 222 52% 12%; --popover-foreground: 40 22% 96%; --primary: 44 52% 54%; --primary-foreground: 222 64% 16%; --secondary: 222 40% 18%; --secondary-foreground: 40 22% 96%; --muted: 222 40% 18%; --muted-foreground: 42 18% 70%; --accent: 44 52% 54%; --accent-foreground: 222 64% 16%; --border: 222 34% 24%; --input: 222 34% 24%; --ring: 44 52% 54%; }
+  * { @apply border-border; }
+  html { scroll-behavior: smooth; }
+  body { @apply bg-background text-foreground font-sans antialiased; }
+  h1,h2,h3,.font-heading { font-family: 'Playfair Display', 'Amiri', serif; }
+  [dir="rtl"] body { font-family: 'Cairo', 'IBM Plex Sans', sans-serif; }
+  [dir="rtl"] h1,[dir="rtl"] h2,[dir="rtl"] h3,[dir="rtl"] .font-heading { font-family: 'Amiri', 'Cairo', serif; }
+  [dir="rtl"] .rtl-flip { flex-direction: row-reverse; }
+  [dir="rtl"] .rtl-text { text-align: right; }
+}
+
+@layer components {
+  .gold-gradient { background: linear-gradient(135deg, #f1d377 0%, #c9a84c 48%, #9f7c26 100%); }
+  .navy-gradient { background: radial-gradient(circle at 20% 0%, rgba(201,168,76,.28), transparent 30%), linear-gradient(135deg, #0f2044 0%, #071225 100%); }
+  .luxury-card { @apply bg-card/95 border border-border/80 rounded-2xl shadow-sm; }
+  .glass-panel { @apply bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl; }
+  .legal-pattern { background-image: radial-gradient(circle at 1px 1px, rgba(201,168,76,.18) 1px, transparent 0); background-size: 28px 28px; }
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:1380",
+      "sslPort": 44383
+    }
+  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5169",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_URL": "Host=localhost;Port=5432;Database=mirath;Username=postgres;Password=ROOT",
+        "JWT_SECRET": "development-only-secret-change-before-production-012345678901234567890123456789",
+        "JWT_ISSUER": "mirath-api",
+        "JWT_AUDIENCE": "mirath-client",
+        "FRONTEND_ORIGIN": "http://localhost:5173",
+        "STORAGE_PATH": "./storage"
+      }
+    },
+    "https": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7277;http://localhost:5169",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_URL": "Host=localhost;Port=5432;Database=mirath;Username=postgres;Password=ROOT",
+        "JWT_SECRET": "development-only-secret-change-before-production-012345678901234567890123456789",
+        "JWT_ISSUER": "mirath-api",
+        "JWT_AUDIENCE": "mirath-client",
+        "FRONTEND_ORIGIN": "http://localhost:5173",
+        "STORAGE_PATH": "./storage"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DATABASE_URL": "Host=localhost;Port=5432;Database=mirath;Username=postgres;Password=ROOT",
+        "JWT_SECRET": "development-only-secret-change-before-production-012345678901234567890123456789",
+        "JWT_ISSUER": "mirath-api",
+        "JWT_AUDIENCE": "mirath-client",
+        "FRONTEND_ORIGIN": "http://localhost:5173",
+        "STORAGE_PATH": "./storage"
+      }
+    }
+  }
+}

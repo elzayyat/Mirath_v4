@@ -1,0 +1,11 @@
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\bin\Debug\net8.0\Mirath.Shared.deps.json
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\bin\Debug\net8.0\Mirath.Shared.dll
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\bin\Debug\net8.0\Mirath.Shared.pdb
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\obj\Debug\net8.0\Mirath.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\obj\Debug\net8.0\Mirath.Shared.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\obj\Debug\net8.0\Mirath.Shared.AssemblyInfo.cs
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\obj\Debug\net8.0\Mirath.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\obj\Debug\net8.0\Mirath.Shared.dll
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\obj\Debug\net8.0\refint\Mirath.Shared.dll
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\obj\Debug\net8.0\Mirath.Shared.pdb
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Shared\obj\Debug\net8.0\ref\Mirath.Shared.dll

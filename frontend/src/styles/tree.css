@@ -1,0 +1,71 @@
+/* Family Tree Custom Styles */
+.tree-path {
+  stroke: #d4af37;
+  stroke-width: 2px;
+  stroke-dasharray: none;
+  transition: stroke 0.3s ease;
+}
+
+.tree-path:hover {
+  stroke: #0a2e36;
+  stroke-width: 3px;
+}
+
+/* Node Animation */
+.node-enter {
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.node-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+/* Tooltip Styles */
+.custom-tooltip {
+  background: white;
+  border: 1px solid #d4af37;
+  border-radius: 8px;
+  padding: 8px 12px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  max-width: 250px;
+  z-index: 1000;
+}
+
+.custom-tooltip::before {
+  content: '';
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #d4af37;
+}
+
+/* Zoom Controls */
+.zoom-controls {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  display: flex;
+  gap: 8px;
+  z-index: 10;
+  background: white;
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #d4af37;
+}
+
+/* RTL Support for Tree */
+[dir="rtl"] .tree-container {
+  direction: ltr;
+}
+
+[dir="rtl"] .tree-container text {
+  direction: rtl;
+  dominant-baseline: middle;
+}

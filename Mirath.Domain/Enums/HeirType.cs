@@ -1,0 +1,1 @@
+// Removed the HeirType enum as it has been moved to Mirath.Shared.Enums.

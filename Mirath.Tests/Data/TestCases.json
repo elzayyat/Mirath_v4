@@ -1,0 +1,63 @@
+{
+  "testCases": [
+    {
+      "id": "TC001",
+      "name": "الأم مع الإخوة",
+      "description": "الأم تأخذ السدس لوجود الإخوة",
+      "heirs": [
+        { "type": "Mother", "count": 1 },
+        { "type": "Brother", "count": 2 }
+      ],
+      "estate": 100000,
+      "expected": [
+        { "heirType": "Mother", "share": 0.16666666666666666, "amount": 16666.67 }
+      ]
+    },
+    {
+      "id": "TC002",
+      "name": "العول - زوج وأخت شقيقة وأم",
+      "description": "مجموع الفروض يتجاوز 100% - يطبق العول",
+      "heirs": [
+        { "type": "Husband", "count": 1 },
+        { "type": "FullSister", "count": 1 },
+        { "type": "Mother", "count": 1 }
+      ],
+      "estate": 100000,
+      "expected": [
+        { "heirType": "Husband", "share": 0.375, "amount": 37500 },
+        { "heirType": "FullSister", "share": 0.375, "amount": 37500 },
+        { "heirType": "Mother", "share": 0.25, "amount": 25000 }
+      ]
+    },
+    {
+      "id": "TC003",
+      "name": "الرد - أم وبنت",
+      "description": "مجموع الفروض أقل من 100% - يطبق الرد",
+      "heirs": [
+        { "type": "Mother", "count": 1 },
+        { "type": "Daughter", "count": 1 }
+      ],
+      "estate": 150000,
+      "expected": [
+        { "heirType": "Mother", "share": 0.2, "amount": 30000 },
+        { "heirType": "Daughter", "share": 0.8, "amount": 120000 }
+      ]
+    },
+    {
+      "id": "TC004",
+      "name": "العمرية - زوج وأب وأم",
+      "description": "الأم تأخذ ثلث الباقي بعد الزوج",
+      "heirs": [
+        { "type": "Husband", "count": 1 },
+        { "type": "Father", "count": 1 },
+        { "type": "Mother", "count": 1 }
+      ],
+      "estate": 100000,
+      "expected": [
+        { "heirType": "Husband", "share": 0.5, "amount": 50000 },
+        { "heirType": "Mother", "share": 0.16666666666666666, "amount": 16666.67 },
+        { "heirType": "Father", "share": 0.3333333333333333, "amount": 33333.33 }
+      ]
+    }
+  ]
+}

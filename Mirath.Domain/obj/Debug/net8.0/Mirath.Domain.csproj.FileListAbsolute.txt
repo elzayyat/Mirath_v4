@@ -1,0 +1,15 @@
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\bin\Debug\net8.0\Mirath.Domain.deps.json
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\bin\Debug\net8.0\Mirath.Domain.dll
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\bin\Debug\net8.0\Mirath.Domain.pdb
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\bin\Debug\net8.0\Mirath.Shared.dll
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\bin\Debug\net8.0\Mirath.Shared.pdb
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\Mirath.Domain.csproj.AssemblyReference.cache
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\Mirath.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\Mirath.Domain.AssemblyInfoInputs.cache
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\Mirath.Domain.AssemblyInfo.cs
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\Mirath.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\Mirath.D.022ED627.Up2Date
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\Mirath.Domain.dll
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\refint\Mirath.Domain.dll
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\Mirath.Domain.pdb
+C:\Users\Mohamed\Music\mirath_project_updated\Mirath.Domain\obj\Debug\net8.0\ref\Mirath.Domain.dll
